@@ -1,0 +1,45 @@
+
+body {
+	background-color: black;
+	color: purple;
+	margin: 0% 10% 5% 10%;
+	border: 5px solid purple;
+	background-image: url('img/stars.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+
+
+
+}
+
+
+/*header*/
+header {
+	background: black;
+
+
+}
+
+li {
+	text-decoration: none;
+	display: inline;
+	padding: 10px;
+}
+
+nav {
+	float: right;
+}
+
+#logo {
+	max-height: 300px;
+	max-width: 300px;
+
+}
+
+/*main page*/
+
+
+#centerpiece {
+	background-color: black;
+}
