@@ -1,0 +1,68 @@
+body {
+
+	background: url("img/stars.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+
+#logo {
+
+	max-width: 300px;
+	max-height: 300px;
+	margin-left: 20%;
+}
+
+nav { float: right;
+margin-right: 15%;
+margin-top: 4%;
+
+}
+
+nav li {
+
+	display: inline;
+	text-decoration: none;
+	padding: 0px 20px;
+	font-size: 20px;
+	color: yellow;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.center{
+	min-height: 500px;
+	min-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center h3 {
+position: absolute;
+top: 200px;
+left: 500px;
+width: 100%;
+text-shadow: 1px 2px black;
+color: yellow;}
+
+footer {
+
+	background: radial-gradient(#2E0854 50%, #2E0830);
+	margin: 0;
+	min-width: 100%;
+	min-height: 150px;
+	border-top: solid 5px black;
+}
+
+
+#img {
+	size: 60%;
+	border-radius: 5%;
+	border: solid 1px yellow;
+	max-height: 600px;
+	max-width: 600px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
