@@ -3,8 +3,9 @@ body {
 	background: url("img/stars.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	min-height: 100%;
+	height: 100%;
 	margin: 0 auto;
+	color: yellow;
 }
 
 
@@ -31,11 +32,9 @@ nav li {
 	font-family: 'Carrois Gothic SC', sans-serif;
 }
 
-.center{
-	min-height: 500px;
-	min-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+.divwrap{
+	margin-right: 20%;
+	margin-left: 20%;
 }
 
 .center h3 {
@@ -101,3 +100,4 @@ footer {
         list-style-type: none;
         position: absolute;
     }
+
