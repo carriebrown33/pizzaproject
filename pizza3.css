@@ -1,0 +1,125 @@
+
+
+
+body {
+
+
+	background: url("img/stars.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: yellow;
+}
+
+#bodywrap {
+	background: #111111;
+	margin-top: 0;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+
+#logo {
+
+	max-width: 300px;
+	max-height: 300px;
+	margin-left: 30%;
+}
+
+nav { 
+
+text-align: center;
+background: purple;
+
+}
+
+nav li {
+
+	display: inline;
+	text-decoration: none;
+	padding: 0px 20px;
+	font-size: 18px;
+	color: yellow;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	border-right: 1px black solid;
+
+}
+
+li:hover {
+	background: black;
+}
+#menu {
+	border-left: 1px solid black;
+}
+
+.divwrap{
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.center h3 {
+position: absolute;
+top: 200px;
+left: 500px;
+width: 100%;
+text-shadow: 1px 2px black;
+color: yellow;}
+
+footer {
+
+	background: radial-gradient(#2E0854 50%, #2E0830);
+	margin: 0;
+	min-width: 100%;
+	min-height: 150px;
+	border-top: solid 5px black;
+}
+
+
+#img {
+	size: 60%;
+	border-radius: 5%;
+	border: solid 1px yellow;
+	max-height: 600px;
+	max-width: 600px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Scrolling img gallery*/
+
+
+#scroller
+
+{
+	width: 550px;
+	height: 400px;
+	margin: 0 auto;
+	border-radius: 2%;
+	border: solid 5px black;
+}
+
+
+#scroller {
+        position: relative;
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
+
+
