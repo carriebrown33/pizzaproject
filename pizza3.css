@@ -122,6 +122,10 @@ footer {
 
 
 
-#fb-root {
+#fb-page {
+	float: right;
+}
+
+#map {
 	float: right;
 }
