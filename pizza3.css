@@ -28,7 +28,7 @@ body {
 nav { 
 
 text-align: center;
-background: purple;
+background: radial-gradient(#5133AB 50%, #2E0830);
 
 }
 
@@ -40,16 +40,14 @@ nav li {
 	font-size: 18px;
 	color: yellow;
 	font-family: 'Carrois Gothic SC', sans-serif;
-	border-right: 1px black solid;
+	
 
 }
 
 li:hover {
 	background: black;
 }
-#menu {
-	border-left: 1px solid black;
-}
+
 
 .divwrap{
 	margin-right: 20%;
@@ -66,7 +64,7 @@ color: yellow;}
 
 footer {
 
-	background: radial-gradient(#2E0854 50%, #2E0830);
+	background: radial-gradient(#5133AB 50%, #2E0830);
 	margin: 0;
 	min-width: 100%;
 	min-height: 150px;
@@ -123,3 +121,7 @@ footer {
     }
 
 
+
+#fb-root {
+	float: right;
+}
