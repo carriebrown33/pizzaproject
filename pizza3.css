@@ -18,6 +18,8 @@ body {
 	margin-right: 20%;
 	margin-left: 20%;
 	margin-bottom: 0;
+	border: 1px solid orange;
+	
 }
 
 
@@ -92,6 +94,8 @@ footer {
 	min-width: 100%;
 	min-height: 50px;
 	border-top: solid 5px orange;
+	overflow: hidden;
+
 }
 
 
@@ -148,4 +152,13 @@ footer {
 .fb-page
 {
 	float: right;
+}
+
+#map
+{
+	float: left;
+}
+
+.fb-page #map footer {
+	overflow: hidden;
 }
