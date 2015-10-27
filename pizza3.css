@@ -151,7 +151,7 @@ footer {
 .fb-page
 {
 	float: right;
-	
+
 }
 
 #map
@@ -161,4 +161,9 @@ footer {
 
 .fb-page #map footer {
 	overflow: hidden;
+}
+
+#fbmap {
+	display: table;
+	clear: both;
 }
