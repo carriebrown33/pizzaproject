@@ -4,6 +4,63 @@
 <head> <title> Cosmic Pizza: Best Pizza in Louisville, KY </title>
 	<link rel="stylesheet" href="pizza3.css">
 	<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+<!-- 
+JS IMAGE ROTATOR -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var images = ["img/background.jpg",
+                              "img/astronaut.jpg",
+                              "img/painting.jpg",
+                              "img/yoda.jpg",
+                              "img/ufo.jpg"
+
+                              ];
+                var currentImageIndex = 0;
+                
+                function setImage(){
+                    var $container = $("#container");
+                    
+                    $container.fadeOut({ 
+                        duration: 450, 
+                        complete: function() { 
+                            $("#container").attr("src", images[currentImageIndex]);
+                            $container.fadeIn(250);
+                        } 
+                    });
+                    
+                    if (currentImageIndex < (images.length - 1))
+                        currentImageIndex++;
+                    else
+                        currentImageIndex = 0;
+
+                    console.debug(currentImageIndex);
+                        
+                    setTimeout(setImage, 3000);
+                }
+
+                setImage();             
+            });
+
+ 
+        </script>
+
+<!-- END JS IMAGE ROTATOR -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	</head>
@@ -26,12 +83,13 @@
 </nav>
 	</header>
 
+<center><img id="container" src="" height="400" width="600"/>
 	
-		<div id="scroller">
+		<!-- <div id="scroller">
 			<div class="innerScrollArea">
 		  <ul>
-            <!-- Define photos here -->
-            <li><img src="img/background.jpg" width="600" height="400" /></li>
+            <!Define photos here -->
+          <!--   <li><img src="img/background.jpg" width="600" height="400" /></li>
             <li><img src="img/astronaut.jpg" width="600" height="400" /></li>
             <li><img src="img/arcade.jpg" width="600" height="400" /></li>
             <li><img src="img/painting.jpg" width="600" height="400" /></li>
@@ -39,9 +97,9 @@
             <li><img src="img/yoda.jpg" width="600" height="400" /></li>
             <li> <img src="img/fans.jpg" height="400" width="400"> </li>
         </ul>
-    </div>
+    </div> --> <!-- --> 
 
-		</div>
+		<!-- </div> -->
 <div class="mainpwrap">
 <p> Cosmic Pizza is a local pizza restaurant in Louisville, KY. Here at Cosmic Pizza, we believe in quality pizza. We do not skimp on the toppings on our pizzas. Our salads are robust. And our cheesebread is the cheesiest bread in the galaxy! </div>
 	<h2><center> Call now for delivery or carryout: <style="color:#5C258D">(502) 409-5873 </h2>
@@ -62,7 +120,7 @@ src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJd2XMqVsRaYgRxs8wf
 
 <!-- Scroller JS -->
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+/*<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 <script type="text/javascript">
     $(function(){
         var scroller = $('#scroller div.innerScrollArea');
@@ -107,7 +165,7 @@ src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJd2XMqVsRaYgRxs8wf
         tweenToNewSpeed(controller.fullSpeed);
     });
 </script>
-
+*/
 
 <!-- <fB page->-->
 

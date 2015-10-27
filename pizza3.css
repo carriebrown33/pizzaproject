@@ -75,16 +75,20 @@ li:hover {
 
 
 .mainpwrap {
-	background: black;
 	margin-top: 0;
+	margin-right: 30px;
+	margin-left: 30px;
 }
 
 .mainpwrap p {
 	padding: 5px;
-	margin: 0;
+	
 	border-bottom: #5C258D  2px solid;
 }
 
+#container {
+	border-bottom: #5C258D  2px solid;
+}
 
 footer {
 
