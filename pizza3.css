@@ -14,7 +14,7 @@ body {
 
 #bodywrap {
 	background: rgba(16, 16, 16, 0.70);
-	margin-top: 0;
+	margin-top: 20px;
 	margin-right: 20%;
 	margin-left: 20%;
 	margin-bottom: 0;
@@ -23,9 +23,14 @@ body {
 
 #logo {
 
-	max-width: 350px;
-	max-height: 350px;
-	margin-left: 30%;
+	max-width: 310px;
+	max-height: 310px;
+	position: absolute;
+	z-index: 1;
+	left: 1px;
+	top: 0;
+	margin-left: 20%;
+
 }
 
 nav { 
@@ -39,6 +44,11 @@ border-top: orange solid 1px;
 
 }
 
+nav ul {
+
+	margin-left: 300px;
+}
+
 nav li {
 
 	display: inline;
@@ -47,6 +57,7 @@ nav li {
 	font-size: 18px;
 	color: yellow;
 	font-family: 'Carrois Gothic SC', sans-serif;
+  
 
 	
 
@@ -72,20 +83,14 @@ li:hover {
 	margin: 0;
 	border-bottom: #5C258D  2px solid;
 }
-.center h3 {
-position: absolute;
-top: 200px;
-left: 500px;
-width: 100%;
-text-shadow: 1px 2px black;
-color: yellow;}
+
 
 footer {
 
 	background: linear-gradient( #5C258D 50%, #451A8B);
 	margin: 0 auto;
 	min-width: 100%;
-	min-height: 150px;
+	min-height: 50px;
 	border-top: solid 5px orange;
 }
 
