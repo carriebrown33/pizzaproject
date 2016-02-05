@@ -39,9 +39,15 @@ body {
 	max-height: 310px;
     padding-left: 20%;
     
+    
 	
 	
 
+}
+
+#logowrap
+{
+    float:right;
 }
 
 header {
@@ -60,9 +66,10 @@ nav {
 
 
 
-margin: 0;
+margin-right: 20%;
 float: right;
-padding-right: 20%;
+
+ 
 
 
 }
@@ -89,27 +96,33 @@ nav li {
 
 #stuff {
     
-    display: inline;
-	text-decoration: none;
-    margin: 5%;
-    
+    margin-top: 100px;
+    padding-left: 11%;
+    font-size:20px;
+    text-align:center;
    
 }
 
-
-
-#stuff li
+.left 
 {
-    padding-right: 5%;
-    display: inline;
-	text-decoration: none;
-    font-size: 20px;
     
+    float:left;
+    width: 30%;
    
-        
+    
 }
 
-li:hover {
+.pclass {
+    
+    color: white;
+    font-family: "Verdana", sans-seif;
+    font-size: 15px;
+}
+
+
+
+ 
+header li:hover {
 	color: orange;
 }
 
@@ -119,6 +132,7 @@ li:hover {
 	margin-right: 20%;
     margin-left: 20%;
     border: 2px dashed purple;
+    clear: both;
 }
 
 .mainpwrap p {
