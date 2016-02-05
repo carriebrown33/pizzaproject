@@ -109,29 +109,25 @@ nav li {
         
 }
 
-#flying {
-	max-height: 50px;
-	max-width: 50px;
-}
-
 li:hover {
 	color: orange;
 }
 
 
 .mainpwrap {
-	margin-top: 0;
 	
+	margin-right: 20%;
+    margin-left: 20%;
+    border: 2px dashed purple;
 }
 
 .mainpwrap p {
 	padding: 5px;
-	
+    color: white;
+    font-family: 'Verdana', san-serif;
 }
 
-#container {
-	
-}
+
 
 footer {
 
